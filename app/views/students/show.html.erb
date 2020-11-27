@@ -5,11 +5,6 @@
 <% end %>
 
 
-<% if @student.photo.attached? %>
-  <%= cl_image_tag @student.photo.key, height: 300, width: 400, crop: :fill %>
-<% else %>
-  <%= cl_image_tag "KEY_TO_DEFAULT_IMAGE_IN_CLOUDINARY", height: 300, width: 400, crop: :fill %>
-<% end %>
 
 
 
