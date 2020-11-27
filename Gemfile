@@ -27,7 +27,7 @@ gem 'turbolinks', '~> 5'
 
 # Gems added after initial setup
 gem 'simple_form'
-
+gem 'dotenv-rails', groups: [:development, :test]
 
 # Reduces boot times through caching; required in config/boot.rb
 gem 'bootsnap', '>= 1.4.2', require: false
